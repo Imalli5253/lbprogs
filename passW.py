@@ -43,8 +43,8 @@ n = int(input("Enter input size : "))
 d = {}
 
 for i in range(n):
-    keys = input("Enter name : ") # here i have taken keys as strings
-    values = int(input("Enter number : ")) # here i have taken values as integers
+    keys = input("Enter employee name : ") # here i have taken keys as strings
+    values = int(input("Enter employee number : ")) # here i have taken values as integers
     d[keys] = values
 
 passChar(d)
